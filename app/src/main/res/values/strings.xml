@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Inward</string>
+    <string name="edit_existing">Edit existing</string>
+    <string name="create_new_inward">Create new inward</string>
+    <string name="search">Search</string>
+    <string name="customer_name">Customer name</string>
+    <string name="company_org">Company/Org.</string>
+    <string name="mobile_no">Mobile no.</string>
+    <string name="model_hp_dell_etc">Model (hp, Dell etc.)</string>
+    <string name="problem">Problem</string>
+    <string name="cpu">CPU</string>
+    <string name="laptop">laptop</string>
+    <string name="printer">printer</string>
+    <string name="other">other</string>
+    <string name="type_of_machine">Type of machine</string>
+    <string name="submit">Submit</string>
+    <string name="model">Model</string>
+    <string name="inward_no">Inward No.</string>
+    <string name="customer_details">Customer Details :</string>
+    <string name="save">Save</string>
+    <string name="mark_outward">Mark Outward</string>
+    <string name="name">name</string>
+    <string name="contact">contact</string>
+    <string name="job_description">Job Description :</string>
+    <string name="description">Description</string>
+    <string name="accesories">accesories</string>
+    <string name="accessories">accessories</string>
+    <string name="diagnostics">Diagnostics :</string>
+    <string name="diag_steps">Diag steps</string>
+    <string name="charges">charges</string>
+    <string name="payment_details">payment Details :</string>
+
+
+    <string-array name="job_type">
+        <item>cpu</item>
+        <item>monitor</item>
+        <item>laptop</item>
+        <item>printer</item>
+        <item>speakers</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="cpu_brand">
+        <item>Dell</item>
+        <item>Hp</item>
+        <item>Lenovo</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="laptop_brand">
+        <item>Asus</item>
+        <item>Acer</item>
+        <item>Apple</item>
+        <item>Dell</item>
+        <item>Gigabyte</item>
+        <item>Gateway</item>
+        <item>Hp</item>
+        <item>Lenovo</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="monitor_brand">
+        <item>Aoc</item>
+        <item>Dell</item>
+        <item>Lenovo</item>
+        <item>IBM</item>
+        <item>Flateron</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="printer_brand">
+        <item>Canon</item>
+        <item>Epson</item>
+        <item>Hp</item>
+        <item>Samsung</item>
+        <item>Ricoh</item>
+        <item>Xerox</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="speakers_brand">
+        <item>Iball</item>
+        <item>Expro</item>
+        <item>Zebion</item>
+        <item>Intex</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="other">
+        <item>other</item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "353283990616",
+    "firebase_url": "https://inward-43704.firebaseio.com",
+    "project_id": "inward-43704",
+    "storage_bucket": "inward-43704.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353283990616:android:c2dfeacb185378a11fd62d",
+        "android_client_info": {
+          "package_name": "com.ashraf.inward"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353283990616-urdla4lmlno04g5phajng21amavae6l8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ashraf.inward",
+            "certificate_hash": "b6dbbfca65407347f0582a1bd3fc7cd9a9309522"
+          }
+        },
+        {
+          "client_id": "353283990616-iu2t03qf4eo17pm3iam6fo8g721p9t6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRANiaDvqCXirImytLEo8nzWliqJGKSQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353283990616-iu2t03qf4eo17pm3iam6fo8g721p9t6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
