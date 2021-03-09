@@ -31,7 +31,7 @@ import java.util.Map;
 
 public class Create_new extends AppCompatActivity  {
 
-    Spinner sp_type, sp_brand;
+    Spinner sp_type, sp_brand;     //dropdown list
     ArrayAdapter<CharSequence> type_adapter;
     ArrayAdapter<CharSequence> brand_adapter;
 
