@@ -119,33 +119,34 @@ public class Create_new extends AppCompatActivity  {
             public void onClick(View view) {
 
                 String Name =((EditText)(findViewById(R.id.CN_Cust_Name))).getText().toString();
-                String Type= sp_type.getSelectedItem().toString();
-                String Brand= sp_brand.getSelectedItem().toString();
-                String Contact =((EditText)(findViewById(R.id.CN_Contact))).getText().toString();
-                String Description =((EditText)(findViewById(R.id.CN_Description))).getText().toString();
-                String Problem =((EditText)(findViewById(R.id.CN_Problem))).getText().toString();
-                String Accessories =((EditText)(findViewById(R.id.CN_Accessories))).getText().toString();
+                //String Type= sp_type.getSelectedItem().toString();
+                //String Brand= sp_brand.getSelectedItem().toString();
+                //String Contact =((EditText)(findViewById(R.id.CN_Contact))).getText().toString();
+                //String Description =((EditText)(findViewById(R.id.CN_Description))).getText().toString();
+                //String Problem =((EditText)(findViewById(R.id.CN_Problem))).getText().toString();
+                //String Accessories =((EditText)(findViewById(R.id.CN_Accessories))).getText().toString();
                 //String Type=((RadioButton)findViewById(((RadioGroup)findViewById(R.id.CN_Type)).getCheckedRadioButtonId())).getText().toString();
 
-                Date date = Calendar.getInstance().getTime();
-                SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault());
-                String Fdate = sdf.format(date);
+                //Date date = Calendar.getInstance().getTime();
+                //SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault());
+                //String Fdate = sdf.format(date);
 
-                Map<String, Object> Customer = new HashMap<>();
+                Map<String, Object> document = new HashMap<>();
 
-                Customer.put("Name", Name);
-                Customer.put("Contact", Contact);
-                Customer.put("Job_Type", Type);
-                Customer.put("Brand", Brand);
-                Customer.put("Description", Description);
-                Customer.put("Problem", Problem);
-                Customer.put("Accessories", Accessories);
-                Customer.put("Issuer", "Ashraf");
-                Customer.put("Inward_Date",Fdate);
+                document.put("name", Name);
+                document.put("pic", "https://1.bp.blogspot.com/-As2LicKAAw4/YFd92z49lSI/AAAAAAAAAus/9CGh5" +
+                        "8Th2oEdfcTlRftpHoVeKUhoZsF7wCLcBGAsYHQ/s0/Placeholder.png");
+                //Customer.put("Job_Type", Type);
+                //Customer.put("Brand", Brand);
+                //Customer.put("Description", Description);
+                //Customer.put("Problem", Problem);
+                //Customer.put("Accessories", Accessories);
+                //Customer.put("Issuer", "Ashraf");
+                //Customer.put("Inward_Date",Fdate);
 
 
-                DB.collection("Cust_details")
-                        .add(Customer)
+                DB.collection("Profile")
+                        .add(document)
                         .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                             @Override
                             public void onSuccess(DocumentReference documentReference) {

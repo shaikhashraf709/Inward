@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "353283990616-urdla4lmlno04g5phajng21amavae6l8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ashraf.inward",
+            "certificate_hash": "b6dbbfca65407347f0582a1bd3fc7cd9a9309522"
+          }
+        },
+        {
           "client_id": "353283990616-iu2t03qf4eo17pm3iam6fo8g721p9t6k.apps.googleusercontent.com",
           "client_type": 3
         }

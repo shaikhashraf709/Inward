@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.Main_Search_exist:
-                startActivity(new Intent(MainActivity.this,Display.class));
+                startActivity(new Intent(MainActivity.this, Recycler_Screen.class));
 
             break;
 
